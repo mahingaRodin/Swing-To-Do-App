@@ -22,11 +22,11 @@ A simple and clean Java Swing application to manage your daily tasks.
 ## How to Run ▶️
 1. Compile the program:
    ```sh
-   javac ToDoListApp.java
+   javac Todo.java
    ```
 2. Run the application:
    ```sh
-   java ToDoListApp
+   java Todo
    ```
 
 ## File Storage 💾
