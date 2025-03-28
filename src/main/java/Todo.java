@@ -30,6 +30,7 @@ public class Todo {
         taskList = new JList<>(taskListModel);
         taskList.setFont(new Font("Arial", Font.PLAIN, 14));
         taskList.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+        taskList.setForeground(Color.BLACK);
         taskList.setBackground(Color.WHITE);
         JScrollPane scrollPane = new JScrollPane(taskList);
         scrollPane.setBorder(BorderFactory.createLineBorder(new Color(200, 200, 200)));
